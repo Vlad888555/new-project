@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    padding-bottom: 300px;
+    background: #FFF;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-left: 0px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    grid-gap: 0 69px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header__botom{
+    display: flex;
+    grid-gap: 0 38px;
+    padding-top: 106px;
+}
+.info h1 {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.info p {
+    color: #000;
+    font-feature-settings: 'case' on;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.info button {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #000;
+    border: none;
+    outline: none;
+    width: 255px;
+    height: 64px;
+    
+}
+.logo {
+    transition: all 0.8s;
+}
+.logo:hover {
+    transform: rotate(360deg);
+}
+nav ul li a:hover {
+    transition: all 0.8s;
+    color: blue;
+}
+.info button{
+    transform: all 0.8s;
+}
+.info button:hover {
+    opacity: 0.5;
+}
+.computer h2{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.grid__container {
+    display: grid;
+    grid-gap: 0 42px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.grid__elm {
+    border: 1px solid white;
+    transition: all 0.8s;
+}
+.grid__elm:hover {
+    border: 1px solid black;
+    box-shadow: inset 1px;
+}
+.grid__elm h3{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.grid__elm p {
+    color: #71FF64;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+main{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.complect_grid h3{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.complect_grid p {
+    color: #71FF64;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.complect_grid{
+    border: 1px solid white;
+    transform: all 0.8s;
+}
+.complect{
+    display: grid;
+    grid-gap: 0 42px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container1 h2{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 120px;
+
+}
+.Компоненты{
+    padding-top: 120px;
+}
+.complect_text{
+    display: inline-flex;
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    padding-bottom: 30px;
+    padding-left: 20px;
+
+}
+.about__info-elm h2{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.about__info-elm h3{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30.769px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.538px;
+    text-transform: uppercase;
+}
+.about__info-elm p{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 21px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.about__info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about__info {
+    display: flex;
+    
+    
+}
+.about {
+    background-image: url(mateo-nCU4yq5xDEQ-unsplash\ 1.png);
+    padding-top: 60px;
+    padding-bottom: 170px;
+    background-size: cover;
+}
+.about__info-elm {
+    margin-right: 125px;
+
+}
+.about__info-elm:last-child {
+    margin-right: 0px;
+}
+.about__info-elm:first-child {
+    margin-right: 50px;
+}
+@media screen and (max-width:860px){
+    .img img {
+        width: 200px;
+    }
+}
+
